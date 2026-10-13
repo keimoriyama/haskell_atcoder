@@ -8,7 +8,6 @@ main = do
     [n, v] <- ints
     w <- ints
     let iw = zip [1 ..] w
-
     print $
         maximum $ do
             (i, wi) <- iw
